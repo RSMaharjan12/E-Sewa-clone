@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+}
+.first-row {
+  width: 50%;
+  float: left;
+}
+.first-row img {
+  width: 200px;
+  height: 10%;
+}
+.first-row input {
+  position: absolute;
+  top: 24px;
+  left: 250px;
+  width: 300px;
+  height: 5%;
+  border-radius: 5px;
+}
+.firstrow1 {
+  float: left;
+  width: 50%;
+  height: 81px;
+}
+
+.firstrow1 input {
+  position: relative;
+  top: 25px;
+  right: 45px;
+  width: 200px;
+  height: 10%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.firstrow1 button {
+  position: relative;
+  top: 25px;
+  right: 30px;
+  padding: 10px, 2px;
+  height: 30px;
+  width: 70px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid lightgreen;
+}
+.firstrow1 button:hover {
+  background-color: lightgreen;
+  color: black;
+  transition: all 0.5s;
+}
+nav {
+  background-color: lightgreen;
+  width: 100%;
+  height: 35px;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  float: left;
+  padding: 7px;
+  margin-left: 3%;
+  color: black;
+}
+nav a:hover {
+  color: cornsilk;
+}
+.menu1 {
+  width: 100%;
+  height: 450px;
+  background-color: #f0f0f0;
+  float: left;
+}
+.listitem {
+  background-color: white;
+  width: 19%;
+  height: 390px;
+  margin-top: 2%;
+  margin-left: 5%;
+  border: 1px solid white;
+  float: left;
+}
+
+.listitem a {
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+  float: left;
+  width: 87%;
+}
+.listitem a:hover {
+  background-color: #f0f0f0;
+  transition: all 0.36s;
+}
+.listitem img {
+  width: 10px;
+  height: 10px;
+  /* margin-left: 13px; */
+  float: right;
+}
+
+.listitem2 {
+  float: left;
+  margin-left: 2%;
+  width: 70%;
+  height: 390px;
+  margin-top: 2%;
+}
+.listitem2 img {
+  height: 390px;
+  width: 100%;
+}
+.menu2 {
+  float: left;
+  width: 91.5%;
+  height: 50px;
+  margin-left: 5%;
+  background-color: #f0f0f0;
+}
+.menu2 text {
+  font-size: 20px;
+}
+.menu2 button {
+  background-color: rgb(5, 112, 37);
+  color: white;
+  float: right;
+  border: 1px solid lime;
+  cursor: pointer;
+  height: 30px;
+}
+.menu2 button:hover {
+  background-color: mediumaquamarine;
+  color: white;
+}
+.menu3 {
+  /* background-color: mediumblue; */
+  width: 100%;
+  height: 220px;
+  float: left;
+  /* margin-left: 3%; */
+}
+.box1 {
+  width: 14.3%;
+  height: 200px;
+  background-color: white;
+  float: left;
+  padding: 10px, 20px;
+  /* margin: 1px; */
+  margin-left: 5%;
+}
+.box1 img {
+  width: 45%;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.box1 p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(5, 112, 37);
+  float: left;
+}
+footer p {
+  color: white;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
